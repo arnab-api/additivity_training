@@ -9,8 +9,8 @@
         "warmup_steps": 3,
         "device": "cuda",
         "lm_name": "/home/local_arnab/Codes/00_MODEL/meta-llama/Llama-3.2-1B",
-        "wandb_name": "GatedSAETrainer",
-        "submodule_name": "residual"
+        "wandb_name": "DisentangledSAE_TEST",
+        "submodule_name": "model.layers.6"
     },
     "buffer": {
         "d_submodule": 2048,

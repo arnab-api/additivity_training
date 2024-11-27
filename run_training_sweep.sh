@@ -6,6 +6,8 @@ nohup python3 training_sweep.py \
     --width_exponents 13 \
     --num_tokens 50_000_000 \
     --device cuda:0 \
-    --no_wandb_logging \
-    --dry_run \
     > nohup.out 2>&1 &
+
+
+    # --no_wandb_logging \
+    # --dry_run \
